@@ -1,0 +1,36 @@
+CREATE REPOSTORY ON GITHUB
+go on github.com
+click on +
+create a new repository, call it the way i want
+copy the link
+go on a folder on my pc
+right click, open terminal
+write git clone https://... #the link copied before on github
+press enter
+
+FIRST TIME I GIT PUSH (at least i think so, cause for mine it wasn't necessary)
+i open github
+i go to my profile, i open setting
+i go to credentials
+i click on Fine-grained personal access tokens
+i click generate a new token
+i name it
+i put an expiration date (there's even the option "no expiration date")
+i go on Repostory access and i select "only selected repositories"
+i select my repository
+i go to permission and i click on add permission and o select content
+then a bit down there's the voice contents and i select read and write
+i select create tokens
+I COPY THE LINK CAUSE ITS THE ONLY TIME I SEE IT
+then i go to my folder
+i have to create i file because otherwise i have nothing to push
+i open the terminal and write git push -u origin
+i write my username on github and press enter
+as password i paste the link
+
+ADD FILE ON REPOSITORY
+enter the folder which i have created repository
+open the terminal
+write git add . #this command tells git to take all new and modified files e preparing them to savings
+then git commit -m "Aggiunti nuovi file" #save the file in local
+then git push #takes all the saved files and save them on github
