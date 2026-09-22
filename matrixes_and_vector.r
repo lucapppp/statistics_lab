@@ -2,7 +2,7 @@
 
 #vectors
 v1 <- c(1, 2, 3) #this way i declare and store vectors
-letters <- c('l', 'u', 'c', 'a') #a vector can be of numbers, i declare it with virgolette
+letters <- c('l', 'u', 'c', 'a') #a vector can be of letters, i declare them with virgolette
 
 v2 <- 1:10 #i have all number from 1 to 10
 v3 <- seq(0, 5, by = 0.2) #seq stands for sequence. this way i have a vector from 0 to 5 distanced by 0.2. Pay attention, it's 0.2, not 0,2 otherwise it's a casino
